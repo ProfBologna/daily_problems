@@ -5,8 +5,8 @@
 # end
 
 def mutation?(string_1, string_2)
-  (string_2.split(//) - string_1.split(//)).empty?
+  p (string_2.split(//) - string_1.split(//)).empty?
 end
 
-p mutation?("burly", "ruby")
+mutation?("burly", "ruby")
 
